@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD73D55296C2F8500338D8E /* TrollInstallerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D54296C2F8500338D8E /* TrollInstallerApp.swift */; };
+		CCD73D57296C2F8500338D8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D56296C2F8500338D8E /* ContentView.swift */; };
+		CCD73D59296C2F8600338D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD73D58296C2F8600338D8E /* Assets.xcassets */; };
+		CCD73D5C296C2F8600338D8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD73D5B296C2F8600338D8E /* Preview Assets.xcassets */; };
+		CCD73D64296C2FCC00338D8E /* Light-Swift-Untar in Frameworks */ = {isa = PBXBuildFile; productRef = CCD73D63296C2FCC00338D8E /* Light-Swift-Untar */; };
+		CCD73D67296C2FE100338D8E /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = CCD73D66296C2FE100338D8E /* SWCompression */; };
+		CCD73D6B296C2FFC00338D8E /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D6A296C2FFC00338D8E /* Helper.m */; };
+		CCD73D79296C309400338D8E /* cicuta_log.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D6D296C309400338D8E /* cicuta_log.c */; };
+		CCD73D7A296C309400338D8E /* fake_element_spray.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D6E296C309400338D8E /* fake_element_spray.c */; };
+		CCD73D7B296C309400338D8E /* descriptors_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D6F296C309400338D8E /* descriptors_utils.c */; };
+		CCD73D7C296C309400338D8E /* cicuta_virosa.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D71296C309400338D8E /* cicuta_virosa.c */; };
+		CCD73D7D296C309400338D8E /* voucher_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D72296C309400338D8E /* voucher_utils.c */; };
+		CCD73D7E296C309400338D8E /* exploit_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD73D76296C309400338D8E /* exploit_utilities.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCD73D51296C2F8500338D8E /* TrollInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrollInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD73D54296C2F8500338D8E /* TrollInstallerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollInstallerApp.swift; sourceTree = "<group>"; };
+		CCD73D56296C2F8500338D8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCD73D58296C2F8600338D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD73D5B296C2F8600338D8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCD73D68296C2FFB00338D8E /* TrollInstaller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrollInstaller-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCD73D69296C2FFC00338D8E /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		CCD73D6A296C2FFC00338D8E /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		CCD73D6D296C309400338D8E /* cicuta_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cicuta_log.c; sourceTree = "<group>"; };
+		CCD73D6E296C309400338D8E /* fake_element_spray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fake_element_spray.c; sourceTree = "<group>"; };
+		CCD73D6F296C309400338D8E /* descriptors_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = descriptors_utils.c; sourceTree = "<group>"; };
+		CCD73D70296C309400338D8E /* exploit_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit_utilities.h; sourceTree = "<group>"; };
+		CCD73D71296C309400338D8E /* cicuta_virosa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cicuta_virosa.c; sourceTree = "<group>"; };
+		CCD73D72296C309400338D8E /* voucher_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voucher_utils.c; sourceTree = "<group>"; };
+		CCD73D73296C309400338D8E /* cicuta_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cicuta_log.h; sourceTree = "<group>"; };
+		CCD73D74296C309400338D8E /* fake_element_spray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fake_element_spray.h; sourceTree = "<group>"; };
+		CCD73D75296C309400338D8E /* voucher_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voucher_utils.h; sourceTree = "<group>"; };
+		CCD73D76296C309400338D8E /* exploit_utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit_utilities.c; sourceTree = "<group>"; };
+		CCD73D77296C309400338D8E /* cicuta_virosa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cicuta_virosa.h; sourceTree = "<group>"; };
+		CCD73D78296C309400338D8E /* descriptors_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descriptors_utils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD73D4E296C2F8500338D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD73D64296C2FCC00338D8E /* Light-Swift-Untar in Frameworks */,
+				CCD73D67296C2FE100338D8E /* SWCompression in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD73D48296C2F8500338D8E = {
+			isa = PBXGroup;
+			children = (
+				CCD73D53296C2F8500338D8E /* TrollInstaller */,
+				CCD73D52296C2F8500338D8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD73D52296C2F8500338D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD73D51296C2F8500338D8E /* TrollInstaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD73D53296C2F8500338D8E /* TrollInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				CCD73D6C296C309400338D8E /* exploit */,
+				CCD73D54296C2F8500338D8E /* TrollInstallerApp.swift */,
+				CCD73D56296C2F8500338D8E /* ContentView.swift */,
+				CCD73D69296C2FFC00338D8E /* Helper.h */,
+				CCD73D6A296C2FFC00338D8E /* Helper.m */,
+				CCD73D58296C2F8600338D8E /* Assets.xcassets */,
+				CCD73D5A296C2F8600338D8E /* Preview Content */,
+				CCD73D68296C2FFB00338D8E /* TrollInstaller-Bridging-Header.h */,
+			);
+			path = TrollInstaller;
+			sourceTree = "<group>";
+		};
+		CCD73D5A296C2F8600338D8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCD73D5B296C2F8600338D8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCD73D6C296C309400338D8E /* exploit */ = {
+			isa = PBXGroup;
+			children = (
+				CCD73D6D296C309400338D8E /* cicuta_log.c */,
+				CCD73D6E296C309400338D8E /* fake_element_spray.c */,
+				CCD73D6F296C309400338D8E /* descriptors_utils.c */,
+				CCD73D70296C309400338D8E /* exploit_utilities.h */,
+				CCD73D71296C309400338D8E /* cicuta_virosa.c */,
+				CCD73D72296C309400338D8E /* voucher_utils.c */,
+				CCD73D73296C309400338D8E /* cicuta_log.h */,
+				CCD73D74296C309400338D8E /* fake_element_spray.h */,
+				CCD73D75296C309400338D8E /* voucher_utils.h */,
+				CCD73D76296C309400338D8E /* exploit_utilities.c */,
+				CCD73D77296C309400338D8E /* cicuta_virosa.h */,
+				CCD73D78296C309400338D8E /* descriptors_utils.h */,
+			);
+			path = exploit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD73D50296C2F8500338D8E /* TrollInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD73D5F296C2F8600338D8E /* Build configuration list for PBXNativeTarget "TrollInstaller" */;
+			buildPhases = (
+				CCD73D4D296C2F8500338D8E /* Sources */,
+				CCD73D4E296C2F8500338D8E /* Frameworks */,
+				CCD73D4F296C2F8500338D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrollInstaller;
+			packageProductDependencies = (
+				CCD73D63296C2FCC00338D8E /* Light-Swift-Untar */,
+				CCD73D66296C2FE100338D8E /* SWCompression */,
+			);
+			productName = TrollInstaller;
+			productReference = CCD73D51296C2F8500338D8E /* TrollInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD73D49296C2F8500338D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CCD73D50296C2F8500338D8E = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = CCD73D4C296C2F8500338D8E /* Build configuration list for PBXProject "TrollInstaller" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD73D48296C2F8500338D8E;
+			packageReferences = (
+				CCD73D62296C2FCC00338D8E /* XCRemoteSwiftPackageReference "Light-Swift-Untar" */,
+				CCD73D65296C2FE100338D8E /* XCRemoteSwiftPackageReference "SWCompression" */,
+			);
+			productRefGroup = CCD73D52296C2F8500338D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD73D50296C2F8500338D8E /* TrollInstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD73D4F296C2F8500338D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD73D5C296C2F8600338D8E /* Preview Assets.xcassets in Resources */,
+				CCD73D59296C2F8600338D8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD73D4D296C2F8500338D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD73D57296C2F8500338D8E /* ContentView.swift in Sources */,
+				CCD73D7A296C309400338D8E /* fake_element_spray.c in Sources */,
+				CCD73D7B296C309400338D8E /* descriptors_utils.c in Sources */,
+				CCD73D6B296C2FFC00338D8E /* Helper.m in Sources */,
+				CCD73D7D296C309400338D8E /* voucher_utils.c in Sources */,
+				CCD73D55296C2F8500338D8E /* TrollInstallerApp.swift in Sources */,
+				CCD73D7E296C309400338D8E /* exploit_utilities.c in Sources */,
+				CCD73D7C296C309400338D8E /* cicuta_virosa.c in Sources */,
+				CCD73D79296C309400338D8E /* cicuta_log.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCD73D5D296C2F8600338D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCD73D5E296C2F8600338D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD73D60296C2F8600338D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrollInstaller/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppInstalleriOS.TrollInstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrollInstaller/TrollInstaller-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD73D61296C2F8600338D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrollInstaller/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppInstalleriOS.TrollInstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrollInstaller/TrollInstaller-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD73D4C296C2F8500338D8E /* Build configuration list for PBXProject "TrollInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD73D5D296C2F8600338D8E /* Debug */,
+				CCD73D5E296C2F8600338D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD73D5F296C2F8600338D8E /* Build configuration list for PBXNativeTarget "TrollInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD73D60296C2F8600338D8E /* Debug */,
+				CCD73D61296C2F8600338D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCD73D62296C2FCC00338D8E /* XCRemoteSwiftPackageReference "Light-Swift-Untar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/UInt2048/Light-Swift-Untar";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		CCD73D65296C2FE100338D8E /* XCRemoteSwiftPackageReference "SWCompression" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsolomko/SWCompression";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCD73D63296C2FCC00338D8E /* Light-Swift-Untar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCD73D62296C2FCC00338D8E /* XCRemoteSwiftPackageReference "Light-Swift-Untar" */;
+			productName = "Light-Swift-Untar";
+		};
+		CCD73D66296C2FE100338D8E /* SWCompression */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCD73D65296C2FE100338D8E /* XCRemoteSwiftPackageReference "SWCompression" */;
+			productName = SWCompression;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CCD73D49296C2F8500338D8E /* Project object */;
+}

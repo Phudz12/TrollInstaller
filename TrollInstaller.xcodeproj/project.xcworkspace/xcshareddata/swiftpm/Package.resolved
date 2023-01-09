@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "bitbytedata",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tsolomko/BitByteData",
+      "state" : {
+        "revision" : "b4b41619522aacd7aae7b02fa8360833e796a03d",
+        "version" : "2.0.2"
+      }
+    },
+    {
+      "identity" : "light-swift-untar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/UInt2048/Light-Swift-Untar",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0facd92faa289d38beb0401361557c6d53129788"
+      }
+    },
+    {
+      "identity" : "swcompression",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tsolomko/SWCompression",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "cbb34a17ce78641104cf305f751f630e993ca077"
+      }
+    }
+  ],
+  "version" : 2
+}
